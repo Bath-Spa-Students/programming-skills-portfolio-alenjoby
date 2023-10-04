@@ -3,9 +3,3 @@
 repeat=50
 for i in range (repeat):
     print("hi")
-
-a= "hi"
-time= 50
-
-total= a*time
-print(total)
