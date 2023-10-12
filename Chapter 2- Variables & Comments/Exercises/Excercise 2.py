@@ -4,5 +4,5 @@
 
 #Albert Einstein once said, “A person who never made a mistake never tried anything new.
 
-print(f'Steve Jobs Once said, "The only way to do great work is to love what you do')
+print(f'Steve Jobs Once said, "The only way to do great work is to love what you do.')
       
