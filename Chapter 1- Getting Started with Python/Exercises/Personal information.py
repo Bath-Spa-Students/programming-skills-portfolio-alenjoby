@@ -1,0 +1,12 @@
+name=input("Enter your name: ")
+f_name=input("Enter Your Father's Name: ")
+m_name=input("Enter Your mother's Name: ")
+place=input("Enter Place: ")
+school=input("Enter your school name: ")
+contact=int(input("Enter your contact number: "))
+age=int(input("Enter your age: "))
+uni=input("Enter your university name: ")
+hobby=input("Enter your main hobby: ")
+email=input("Enter your Email Address: ")
+
+print(name,f_name,m_name,place,school,contact,age,uni,hobby,email)
