@@ -2,15 +2,16 @@
 #they are between 3 and 12, the ticket is $10; and if they are over age 12, the ticket is $15. Write a loop in which you ask users their 
 #age, and then tell them the cost of their movie ticket
 
+# Ask the user for their age
+age = int(input("What is your age? "))
 
-#asks the user for their age
-age=input("Enter Your Age :")
+# Determine the cost of the ticket based on the user's age
+if age < 3:
+  ticket_price = 0
+elif age >= 3 and age <= 12:
+  ticket_price = 10
+else:
+  ticket_price = 15
 
-#create loop which shows the ticket price on the basis of age
-for ages in age:
-    if age<3:
-        print("Congratulations! your ticket is free")
-    elif age>3 and age<12:
-        print("Your Tickets Cost $10 each")
-    else:
-        print("Your Tickets $15 each")
+# Tell the user the cost of their ticket
+print(f"The cost of your movie ticket is ${ticket_price}.")
